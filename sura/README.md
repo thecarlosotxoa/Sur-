@@ -5,6 +5,11 @@ Dependencies:
 React icons
 npm install react-icons --save
 
+React Scroll
+React component for animating vertical scrolling
+https://www.npmjs.com/package/react-scroll?activeTab=readme
+npm i react-scroll
+
 fonts @ google Gideon Roman
 https://fonts.google.com/share?selection.family=Gideon+Roman
 
