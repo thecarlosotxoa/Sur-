@@ -18,14 +18,14 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" fixed w-full">
+    <div className="fixed w-full">
       <div>
-        <div className=" flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
-          <div className=" flex flex-row items-center cursor-pointer">
+        <div className="flex flex-row justify-between p-5 md:px-32 px-5 bg-suraWhite shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
+          <div className="flex flex-row items-center cursor-pointer">
             <span>
               <BiRestaurant size={32} />
             </span>
-            <h1 className=" text-3xl">surá</h1>
+            <h1 className="text-3xl">surá</h1>
           </div>
 
           <nav className="hidden md:flex flex-row items-center text-lg font-medium gap-8">
@@ -36,11 +36,11 @@ const Navbar = () => {
               duration={500}
               className="hover:text-suraRed transition-all cursor-pointer"
             >
-              Home
+              Conócenos
             </Link>
 
             <div className="relative group">
-              <div className=" flex items-center gap-1">
+              <div className="flex items-center gap-1">
                 <Link
                   to="dishes"
                   spy={true}
@@ -48,7 +48,7 @@ const Navbar = () => {
                   duration={500}
                   className="hover:text-suraRed transition-all cursor-pointer"
                 >
-                  Dishes
+                  Platillos
                 </Link>
 
                 <BiChevronDown className="cursor-pointer" size={25} />
@@ -109,7 +109,7 @@ const Navbar = () => {
               duration={500}
               className="hover:text-suraRed transition-all cursor-pointer"
             >
-              About
+              Instalaciones
             </Link>
 
             <Link
@@ -129,10 +129,8 @@ const Navbar = () => {
               duration={500}
               className="hover:text-suraRed transition-all cursor-pointer"
             >
-              Reviews
+              Reservas
             </Link>
-
-            <Button title="Login" />
           </nav>
 
           <div className="md:hidden flex items-center">
@@ -156,7 +154,7 @@ const Navbar = () => {
             className="hover:text-suraRed transition-all cursor-pointer"
             onClick={closeMenu}
           >
-            Home
+            Conócenos
           </Link>
           <Link
             to="dishes"
@@ -166,7 +164,7 @@ const Navbar = () => {
             className="hover:text-suraRed transition-all cursor-pointer"
             onClick={closeMenu}
           >
-            Dishes
+            Platillos
           </Link>
           <Link
             to="about"
@@ -176,7 +174,7 @@ const Navbar = () => {
             className="hover:text-suraRed transition-all cursor-pointer"
             onClick={closeMenu}
           >
-            About
+            Instalaciones
           </Link>
           <Link
             to="menu"
@@ -193,13 +191,12 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={500}
-            className=" hover:text-suraRed transition-all cursor-pointer"
+            className="hover:text-suraRed transition-all cursor-pointer"
             onClick={closeMenu}
           >
-            Reviews
+            Reservas
           </Link>
-
-          <Button title="login" />
+         
         </div>
       </div>
     </div>
