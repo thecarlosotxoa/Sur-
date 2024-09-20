@@ -9,12 +9,12 @@ import DishesCard from "../layouts/DishesCard";
 
 const Dishes = () => {
   return (
-    <div className=" min-h-screen flex flex-col justify-center items-center lg:px-32 px-5">
-      <h1 className=" text-4xl font-semibold text-center pt-24 pb-10">
+    <div className="min-h-screen flex flex-col justify-center items-center lg:px-32 px-5">
+      <h1 className="text-4xl font-semibold text-center pt-24 pb-10">
         Our Dishes
       </h1>
 
-      <div className=" flex flex-wrap gap-8 justify-center">
+      <div className="flex flex-wrap gap-8 justify-center">
         <DishesCard img={img1} title="Tasty Dish" price="$10.99" />
         <DishesCard img={img2} title="Tasty Dish" price="$12.99" />
         <DishesCard img={img3} title="Tasty Dish" price="$10.99" />
