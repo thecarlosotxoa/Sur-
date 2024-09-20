@@ -5,6 +5,7 @@ import Button from "../layouts/Button";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { BiChevronDown } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
+import logo from "../assets/img/icon-logo.png";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -22,10 +23,9 @@ const Navbar = () => {
       <div>
         <div className="flex flex-row justify-between p-5 md:px-32 px-5 bg-suraWhite shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
           <div className="flex flex-row items-center cursor-pointer">
-            <span>
-              <BiRestaurant size={32} />
-            </span>
-            <h1 className="text-3xl">surá</h1>
+            <a href="/">
+              <img src={logo} alt="Surá Logo" className="h-10 w-auto" />
+            </a>
           </div>
 
           <nav className="hidden md:flex flex-row items-center text-lg font-medium gap-8">
@@ -196,7 +196,6 @@ const Navbar = () => {
           >
             Reservas
           </Link>
-         
         </div>
       </div>
     </div>
