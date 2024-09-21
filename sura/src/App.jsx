@@ -5,6 +5,7 @@ import Dishes from "./components/Dishes";
 import About from "./components/About";
 import Menu from "./components/Menu";
 import Reviews from "./components/Reviews";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -32,7 +33,9 @@ const App = () => {
           <div id="reviews">
             <Reviews />
           </div>
+
         </main>
+        <Footer />
       </div>
     </>
   );
